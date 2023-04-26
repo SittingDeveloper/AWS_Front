@@ -10,7 +10,7 @@ module.exports = function (app) {
     if (process.env.HOSTNAME ==='localhost') {
         target = 'http://localhost:8080';
     } else {
-        target = "http://kms-aws-practice.ap-northeast-2.elasticbeanstalk.com/";
+        target = "http://kms-aws-backend.ap-northeast-2.elasticbeanstalk.com/";
     }
 
 
