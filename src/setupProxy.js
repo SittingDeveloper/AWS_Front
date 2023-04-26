@@ -13,6 +13,7 @@ module.exports = function (app) {
         target = "http://kms-aws-practice.ap-northeast-2.elasticbeanstalk.com/";
     }
 
+
     app.use(
         createProxyMiddleware('/todo', {
             // target: "http://localhost:8080", // 배포 서버 URL 설정
